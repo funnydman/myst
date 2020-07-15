@@ -326,7 +326,7 @@ static Key key[] = {
     { XK_KP_Up,         XK_ANY_MOD,     "\033[A",        0,   -1},
     { XK_KP_Up,         XK_ANY_MOD,     "\033OA",        0,   +1},
     { XK_KP_Down,       XK_ANY_MOD,     "\033Or",       +1,    0},
-    { XK_KP_Down,       XK_ANY_MOD,     "\033[B",        0,   -1},
+    { XK_KP_Down,       XK_ANY_MOD,     "\033[B",        1,   -1},
     { XK_KP_Down,       XK_ANY_MOD,     "\033OB",        0,   +1},
     { XK_KP_Left,       XK_ANY_MOD,     "\033Ot",       +1,    0},
     { XK_KP_Left,       XK_ANY_MOD,     "\033[D",        0,   -1},
